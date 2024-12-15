@@ -18,7 +18,7 @@
 }
 
 body {
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-weight: 200;
   }
 
@@ -41,14 +41,14 @@ a {
 
 .nav-items {
     display: flex;
-    margin-right: 1rem;
+    margin-right: 1vw;
 }
 
 .nav-items a {
     height: 100%;
     color: #d1d0c7;
-    padding: 1rem;
-    font-size: 1.5rem;
+    padding: 1vw;
+    font-size: 1.5vw;
     border-right: 10px, solid, #ffffff;
 }
 
@@ -66,57 +66,66 @@ a {
     height: 100vh;
     background-color: #000;
     color: #d1d0c7;
-    
-    background-image: linear-gradient(70deg, #1b354e 0%, #4E8AC6 100%);
+    background-image: linear-gradient(70deg, #0c1218 0%, #2f5275 100%/**#1b354e 0%, #4E8AC6 100%**/);
 }
 
 .hero div {
-    margin: 2rem;
+    margin: 2vw;
 }
 
 .hero-name {
+    align-items: center;
     width: 30%;
-    background-color: yellow;
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.names-container {
+    align-self: center;
 }
 
 .hero-name h1 {
-    font-size: 6rem;
+    font-size: 6vw;
+    text-align:end;
 }
 
-.hero-name h1:first-of-type {
-    text-align: right;
-}
-
-.hero-image {
-    background-color: red;
-    width: 30%;
-
-}
-
-.hero-role {
-    width: 30%;
-
-    background-color: blue;
-}
 
 .social-icons {
-    margin-top: 1rem;
+    margin-top: 2vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    height: 4rem;
-    width: 100%;
-    background-color: red;
+    gap: 2vw;
+    height: 8vh;
 }
 
 .social-icon{
     filter: invert(95%) sepia(15%) saturate(102%) hue-rotate(15deg) brightness(88%) contrast(87%);
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.5vw;
+    height: 2.5vw;
 }
 
 .social-icon:hover {
-    width: 3rem;
-    height: 3rem;
+    width: 3vw;
+    height: 3vw;
 }
+
+.hero-image {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 25vw;
+}
+
+
+.hero-role {
+    width: 30%;
+}
+
