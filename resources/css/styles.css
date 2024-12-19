@@ -51,14 +51,15 @@ h3 {
 }
 
 .navbar {
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
     display: flex;  
     justify-content: flex-end;
     align-items: center;
     width: 100%;
     height: 7%;
     position: fixed;
-    border-bottom: 1px solid #86a3b1
+    border-bottom: 1px solid #86a3b1;
+    z-index: 10;
 }
 
 .nav-items {
@@ -224,36 +225,42 @@ h3 {
 }
 
 .card {
+    position: relative;
     width: 25vw;
     height: 25vw;
     padding: 1vw;
-    border-radius: 15px;
+    border-radius: 60px;
     background-color: #1e2933;
+    overflow: hidden;
 }
 
 .project-name{
+    padding-bottom: 0.5vw;
+    display: block;
     color: #549ec4;
     text-align: center;
     border-bottom: 1px solid black;
 }
 
 .project-image{
-    display: flex;
-    align-items: center;
-    text-align: center;
+    display: block;
 }
 
 .project-description{
-    display: flex;
-    align-items: center;
     text-align: center;
-    height: 90%;
+    padding: 2vw;
+    position: absolute;
+    top: 0;
+    left: 0;
     transition: 0.4s;
     opacity: 0;
-    font-size: 80%;
+    height: 100%;
+    border-radius: 60px;
 }
 
 .project-description:hover{
     transition: 0.6s;
     opacity: 100%;
+    background-color: rgba(16, 16, 26, 0.7);
+    backdrop-filter: blur(10px);
 }
