@@ -229,7 +229,7 @@ h3 {
     width: 25vw;
     height: 25vw;
     padding: 1vw;
-    border-radius: 60px;
+    border-radius: 15px;
     background-color: #1e2933;
     overflow: hidden;
 }
@@ -255,7 +255,7 @@ h3 {
     transition: 0.4s;
     opacity: 0;
     height: 100%;
-    border-radius: 60px;
+    border-radius: 15px;
 }
 
 .project-description:hover{
