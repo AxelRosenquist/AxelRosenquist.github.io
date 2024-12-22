@@ -8,10 +8,13 @@
 </head>
 <body>
     <nav id="navbar" class="navbar">
+        <a href="#welcome-section"><img src="resources/images/home.svg"></a>
         <ul class="nav-items">
-            <li>
-                <a href="#intro">Introduction</a>
-            </li>
+            <!--
+                <li>
+                    <a href="#intro">Introduction</a>
+                </li>
+                -->          
             <li>
                 <a href="#experience">Experience</a>
             </li>
@@ -20,9 +23,6 @@
             </li>
             <li>
                 <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact Me</a>
             </li>
         </ul>
     </nav>
@@ -47,30 +47,18 @@
                         <img src="resources/images/github.svg" class="social-icon" alt="Github">
                     </a>
                 </div>
+                <div class="icon-container">
+                    <a href="mailto:axel.rosenquist4@gmail.com" target="_blank">
+                        <img src="resources/images/email.svg" class="social-icon" alt="email">
+                    </a>
+                </div>
             </div>
         </div>
         <div class="hero-image">
             <img src="resources/images/portrait.png" alt="Picture of Axel">
         </div>
         <div class="hero-role">
-            <p>IT professional with hands-on experience as a System Technician, seeking to advance into Software Development</p>
-        </div>
-    </section>
-
-    <section id="intro" class="intro">
-        <div class="container">
-            <div class="header">
-                <h2><u>Introduction</u></h2>
-            </div>                
-                I'm a 22-year-old tech enthusiast with a passion for exploring innovative technologies, 
-                solving complex problems, and building creative solutions. With my energetic and positive attitude, 
-                I love taking on new challenges and see every task as an opportunity to learn and grow.
-                Whether it's diving into coding projects, tinkering with hardware, 
-                or staying on top of the latest trends in tech, 
-                I'm always excited to learn and grow in this ever-evolving field.
-                <br>
-                Right now, I'm based in Eksjö, Sweden, where I live with my wife. 
-                It's a place to call home for now, but life's journey is always open to new adventures and possibilities.
+            <p>IT professional with experience as a System Technician, transitioning to Software Development. I'm 22, based in Eksjö, Sweden, and focused on learning, coding, and solving technical problems.</p>
         </div>
     </section>
 
@@ -79,118 +67,131 @@
             <div class="header">
                 <h2><u>Experience</u></h2>
             </div>     
-            <div class="subheader">
-                <h2>Work</h2>
-            </div>
-            <div class="experience-entry">
-            <h3>System Technician</h3>
-            <div class="duration">
-                <p>Höglandets IT - Eksjö, Sweden</p>   <p>2023-11 - current</p>
-            </div>
-                <ul>
-                    <li>
-                        Automation such as python scripting and ansible
-                    </li>
-                    <li>
-                        Management of SQL-servers, linux docker containers and Windows servers  
-                    </li>
-                    <li>
-                        Administrator and maintainer of Service Identities
-                    </li>
-                </ul>
-              <!--   Större projekt
-                Pågående arbete med att byta ut nuvarande egenproducerade TjänsteID kort mot SITHS-kort
-                Utökning av höglandsförbundet för gymnasiesamverkan, där fyra kommuners gymnasiepersonal byter arbetsgivare från kommun till förbund. Anpassning av IT-miljön för dessa ca 800 anställda att byta tjänst och allt det innebär.
-            -->
-            </div>
-            <div class="experience-entry">
-                <h3>Support Technician</h3>
-                <div class="duration">
-                <p>Höglandets IT - Eksjö, Sweden</p>   <p>2022-03 - 2023-11</p>
+            <div class="experience-container">
+                <div class="line"></div>
+                <div class="experience-flex">
+                    <div class="experience-type">
+                        <h3>Work - </h3>
+                    </div>
+                    <div class="experience-entry right">
+                        <h3>System Technichian</h3>
+                        <div class="duration">
+                            <p>Höglandets IT - Eksjö, Sweden</p>   
+                            <p>2023-11 - current</p>
+                        </div>
+                        <ul>
+                            <li>
+                                Automation such as python scripting and ansible
+                            </li>
+                            <li>
+                                Management of SQL-, linux and windows servers 
+                            </li>
+                            <li>
+                                Administrator and maintainer of Service Identities
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <ul>
-                    <li>
-                        Scheduling of the support departments resources
-                    </li>
-                    <li>
-                        First- and second-line support
-                    </li>
-                    <li>
-                        Incident Manager and on call services
-                    </li>
-                </ul>
-            </div>
-            <div class="subheader">
-                <h2>Education</h2>
-            </div>
-            <div class="experience-entry">
-                <h3>Information Technology</h3>
-                <div class="duration">
-                <p>Eksjö gymnasium, Sweden</p>   <p>2018 - 2021</p>
+
+                <div class="experience-flex">
+                    
+                    <div class="experience-entry left">
+                        <h3>Support Technician</h3>
+                        <div class="duration">
+                            <p>Höglandets IT - Eksjö, Sweden</p>   <p>2022-03 - 2023-11</p>
+                        </div>
+                        <ul>
+                            <li>
+                                Scheduling of the support departments resources
+                            </li>
+                            <li>
+                                First- and second-line support
+                            </li>
+                            <li>
+                                Incident Manager and on call services
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="experience-type">
+                        <h3>- Work</h3>
+                    </div>
                 </div>
-                <ul>
-                    <li>
-                        Programming with python, javascript and VBscript
-                    </li>
-                    <li>
-                        Computer Networking 
-                    </li>
-                    <li>
-                        Web Development and Web Design
-                    </li>
-                </ul>
+                
+
+                <div class="experience-flex">
+                    <div class="experience-type">
+                        <h3>Education -</h3>
+                    </div>
+                    <div class="experience-entry right">
+                        <h3>Information Technology</h3>
+                        <div class="duration">
+                            <p>Eksjö gymnasium, Sweden</p>   <p>2018 - 2021</p>
+                        </div>
+                        <ul>
+                            <li>
+                                Programming with python, javascript and VBscript
+                            </li>
+                            <li>
+                                Computer Networking 
+                            </li>
+                            <li>
+                                Web Development and Web Design
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="projects">
+    <section id="projects" class="project-tile">
         <div class="container">
             <div class="header">
                 <h2><u>Projects</u></h2>
                 <div class="cards">
                     <div class="card">
-                        <div class="project-name">
-                            Freshly - Python
+                            <div class="project-name">
+                                Freshly - Python
+                            </div>
+                            <div class="project-image">
+                                PLACEHOLDER
+                                <!-- <img src="resources/images/freshly_placeholder.webp">-->
+                            </div>
+                            <div class="project-description">
+                                A web application that allows you to scan your food items to register them to a database. 
+                                The application then tracks the expiry dates and warns you when they are about to expire.
+                                Simply scan your items to remove them again when used or thrown out. 
+                            </div>
                         </div>
-                        <div class="project-image">
-                            PLACEHOLDER
-                           <!-- <img src="resources/images/freshly_placeholder.webp">-->
+                        <div class="card">
+                            <div class="project-name">
+                                Typeracer - C
+                            </div>
+                            <div class="project-image">    
+                                PLACEHOLDER                     
+                                <!--<img src="resources/images/typeracer_placeholder.png">-->
+                            </div>
+                            <div class="project-description">
+                                A command-line application that helps you practice your typing speed.
+                                Different difficulties with a selection of words that gets chosen on random that the user has to type as fast as possible.
+                                Only continues to the next word when the previous one is finished
+                            </div>
                         </div>
-                        <div class="project-description">
-                            A web application that allows you to scan your food items to register them to a database. 
-                            The application then tracks the expiry dates and warns you when they are about to expire.
-                            Simply scan your items to remove them again when used or thrown out. 
+                        <div class="card">
+                            <div class="project-name">
+                                Discord Casino Bot - Python
+                            </div>
+                            <div class="project-image">
+                                PLACEHOLDER
+                                <!--<img src="resources/images/discord_bot_placeholder.jpg">-->
+                            </div>
+                            <div class="project-description">
+                                A bot for the communication app discord that allows the users to play casino games in the text-channels.
+                                With fake currency tracked by the bot, you can enjoy playing games like blackjack, roulette and 1v1 coinflips.
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="project-name">
-                            Typeracer - C
-                        </div>
-                        <div class="project-image">    
-                            PLACEHOLDER                     
-                            <!--<img src="resources/images/typeracer_placeholder.png">-->
-                        </div>
-                        <div class="project-description">
-                            A command-line application that helps you practice your typing speed.
-                            Different difficulties with a selection of words that gets chosen on random that the user has to type as fast as possible.
-                            Only continues to the next word when the previous one is finished
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="project-name">
-                            Discord Casino Bot - Python
-                        </div>
-                        <div class="project-image">
-                            PLACEHOLDER
-                            <!--<img src="resources/images/discord_bot_placeholder.jpg">-->
-                        </div>
-                        <div class="project-description">
-                            A bot for the communication app discord that allows the users to play casino games in the text-channels.
-                            With fake currency tracked by the bot, you can enjoy playing games like blackjack, roulette and 1v1 coinflips.
-                        </div>
-                    </div>
-                    
-                </div>
+                </div>  
             </div>  
     </section>
 
@@ -198,13 +199,6 @@
         <div class="container">
             <div class="header">
                 <h2><u>Skills</u></h2>
-            </div>  
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="header">
-                <h2><u>Contact</u></h2>
             </div>  
     </section>
 </body>

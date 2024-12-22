@@ -51,17 +51,29 @@ h3 {
 }
 
 .navbar {
+    padding-left: 1vw;;
     backdrop-filter: blur(5px);
     display: flex;  
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 7%;
     position: fixed;
-    border-bottom: 1px solid #86a3b1;
     z-index: 10;
 }
 
+.navbar a{
+    color: var(--white);
+}
+
+.navbar img{
+    filter: invert(95%) sepia(15%) saturate(102%) hue-rotate(15deg) brightness(88%) contrast(87%);
+    height: 3vh;
+}
+
+.navbar img:hover{
+    filter: invert(50%);
+}
 .nav-items {
     display: flex;
     margin-right: 1vw;
@@ -69,7 +81,6 @@ h3 {
 
 .nav-items a {
     height: 100%;
-    color: var(--white);
     padding: 1vw;
     font-size: 1.5vw;
 }
@@ -179,39 +190,81 @@ h3 {
     background-color: #2b67a0;
 }
 
-.contact {
-    height: 50vh;
-    width: 100%;
-    background-color: #222425;
-}
-
 .experience {
     height: 100%;
     width: 100%;
-    background-color: #23517c;
+    background-color: #1d344b;
+    position: relative;
 }
 
-.experience-entry {
-    margin-bottom: 3vw;
+.experience-container{
+    width: 100%;
+    height: 100%;
+}
+
+.line{
+    margin-bottom: 5vw;
+    position: absolute;
+    top: 9vw;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background-color: transparent;
+    border-left: 2px dotted var(--white);
+    transform: translateX(-50%);
+
+}
+
+.experience-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-type{
+    flex: 1;
+    display: flex;
+    padding: 1vw;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.experience-type:nth-of-type(2){
+    justify-content: flex-start;
+}
+
+.experience-entry{
+    flex:1;
+    position: relative;
+    width: 30vw;
+    border: 1px solid var(--white);
+    border-radius: 2vw;
+    padding: 1vw;
+    
 }
 
 .experience-entry ul {
     list-style: inside;
+    font-size: 1vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
 }
 
-.experience-entry li {
-    margin-top: 0.2vw;
-    margin-bottom: 0.2vw;
+.right{
+    margin-left: 6vw;
+}
+
+.left{
+    margin-right: 6vw;
+
 }
 
 .duration {
     display: flex;
     justify-content: space-between;
+    font-size: 1.2vw;
 }
-
-.projects {
+.project-tile {
     height: 100%;
     width: 100%;
     background-color: #222f3b;
