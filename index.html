@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Axel Rosenquist</title>
     <link rel="stylesheet" href="resources/css/styles.css">
+
 </head>
 <body>
+    
     <nav id="navbar" class="navbar">
         <a href="#welcome-section"><img src="resources/images/home.svg"></a>
-        <ul class="nav-items">
-            <!--
-                <li>
-                    <a href="#intro">Introduction</a>
-                </li>
-                -->          
+        <ul class="nav-items">          
             <li>
                 <a href="#experience">Experience</a>
             </li>
@@ -27,7 +24,6 @@
         </ul>
     </nav>
     
-    <!-- Hero -->
     <section id="welcome-section" class="hero"> 
         <div class="hero-name">
             <div class="names">
@@ -58,7 +54,10 @@
             <img src="resources/images/portrait.png" alt="Picture of Axel">
         </div>
         <div class="hero-role">
-            <p>IT professional with experience as a System Technician, transitioning to Software Development. I'm 22, based in Eksjö, Sweden, and focused on learning, coding, and solving technical problems.</p>
+            <p>
+                IT professional with a background as a <br> System Technician, now transitioning into Software Development. 
+                <br>Based in Eksjö, Sweden, I'm a <span id="age"></span>-year-old passionate about learning, coding, and solving technical challenges.
+           </p>
         </div>
     </section>
 
@@ -201,5 +200,7 @@
                 <h2><u>Skills</u></h2>
             </div>  
     </section>
+
+    <script src="./index.js"></script>
 </body>
 </html>
