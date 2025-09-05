@@ -251,6 +251,7 @@ h3 {
 }
 .project-tile {
     height: 100%;
+    min-height: 100vh;
     width: 100%;
     background-color: #263a4d;
 }
@@ -330,4 +331,50 @@ h3 {
     height: 100%;
     width: 70%;;
     background-color: red;
+}
+
+footer {
+    background-color: #13191f;
+    color: var(--white);
+    padding: 10vh 1vw;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 1vw;
+    margin-bottom: 1vh;
+}
+
+.footer-section p,
+.footer-section a {
+    font-size: 0.6vw;
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+    margin: 0.5vh 0;
+}
+
+.footer-section a:hover {
+    color: invert(20%);
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 1.5vh;
+    font-size: 0.5vw;
+    color: var(--main-gray);
 }
