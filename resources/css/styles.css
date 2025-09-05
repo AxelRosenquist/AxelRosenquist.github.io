@@ -41,7 +41,7 @@ a {
 }
 
 h2 {
-    font-size: 2vw;
+    font-size: clamp(26.667px, 2vw, 66.667px);
     font-weight: 600;
 }
 
@@ -82,7 +82,7 @@ h3 {
 .nav-items a {
     height: 100%;
     padding: 1vw;
-    font-size: 1.5vw;
+    font-size: clamp(20px, 1.5vw, 50px);
 }
 
 .nav-items a:hover {
@@ -175,7 +175,7 @@ h3 {
 .header {
     margin-bottom: 3vh;
     font-weight: 5vw;
-    font-size: 2vw;
+    font-size: clamp(26.5px, 2vw, 66.5px);
 }
 
 .container{
@@ -238,7 +238,7 @@ h3 {
 
 .experience-entry ul {
     list-style: inside;
-    font-size: 1vw;
+    font-size: clamp(13px, 1vw, 33px);
     margin-top: 1vw;
     margin-bottom: 1vw;
 }
@@ -361,7 +361,7 @@ footer {
 }
 
 .footer-section h3 {
-    font-size: 1vw;
+    font-size: lamp(13px, 1vw, 33);
     margin-bottom: 1vh;
 }
 
@@ -382,6 +382,6 @@ footer {
 .footer-bottom {
     text-align: center;
     margin-top: 1.5vh;
-    font-size: 0.5vw;
+    font-size: clamp(6.5px, 1vw, 16.5px);
     color: var(--main-gray);
 }
