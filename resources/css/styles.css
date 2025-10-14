@@ -12,6 +12,10 @@
 
 **/
 
+html {
+    background-color: var(--main-blue);
+}
+
 * {
     overscroll-behavior: none;
     margin: 0;
