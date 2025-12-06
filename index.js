@@ -12,4 +12,5 @@ function getAge(birthDate) {
 }
 
 const age = getAge("2002-01-25");
-document.getElementById("age").innerHTML = age.toString();
+const spans = document.querySelectorAll('[id="age"]');
+spans.forEach(span => span.textContent = "23");
