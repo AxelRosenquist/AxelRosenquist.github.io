@@ -252,6 +252,7 @@ h3 {
     justify-content: space-between;
     font-size: 1.2vw;
 }
+
 .project-tile {
     height: 100%;
     min-height: 100vh;
@@ -443,7 +444,6 @@ footer {
         width: 60vw;
     }
 
-
     .hero-role {
         order: 3;
         width: 80%;
@@ -481,5 +481,63 @@ footer {
         height: 100%;
         padding: 2vw;
         font-size: 5vw;
+    }
+
+    .line{
+        display: none;
+    }
+
+
+    .experience-flex{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 5vh;    
+    }
+
+    .experience-type{
+        flex: 1;
+        display: flex;
+        padding: 1vw;
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+
+    .experience-type h3{
+        font-size: 3vw;
+    }
+    .experience-type:nth-of-type(2){
+        justify-content: flex-start;
+    }
+
+    .experience-entry{
+        flex:1;
+        position: relative;
+        width: 30vw;
+        border: 1px solid var(--white);
+        border-radius: 2vw;
+        padding: 1vw;
+        flex: 0 0 70%;
+        
+    }
+    
+    .experience-entry h3 {
+        font-size: 4vw;
+    }
+
+    .duration {
+        font-size: 3vw;
+        padding-bottom: 5px;
+    }
+
+    .experience-entry ul {
+        list-style: inside;
+        font-size: 3vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    .header h2{
+        font-size: 4vw;
     }
 }
