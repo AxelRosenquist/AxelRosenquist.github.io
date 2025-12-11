@@ -564,4 +564,38 @@ footer {
         background-color: rgba(16, 16, 26, 0.7);
         backdrop-filter: blur(10px);
     }
+
+    footer{
+        padding: 2vh 1vw;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .footer-section {
+        flex: 1 1 200px;
+        text-align: center;
+    }
+
+    .footer-section h3 {
+        font-size: 3.5vw;
+    }
+
+    .footer-section p,
+    .footer-section a {
+        font-size: 2.5vw;
+    }
+
+
+
+    .footer-bottom {
+        text-align: center;
+        font-size: 3vw;
+    }
+
 }
