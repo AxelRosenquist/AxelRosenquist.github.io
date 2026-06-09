@@ -1,2 +1,2 @@
 # Portfolio-Page
-Portfolio page and certification for responsive webdesign
+Quick portfolio page
